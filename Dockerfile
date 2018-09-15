@@ -1,3 +1,3 @@
-FROM alpine
+FROM centos:7
 
-RUN bash -c "while true; do echo test; sleep 5; done"
+CMD bash -c "while true; do echo test; sleep 5; done"
